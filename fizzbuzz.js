@@ -8,10 +8,10 @@ For each number that is evenly divisible by both 3 and 5 print the word fizzbuzz
 // Javascript FizzBuzz Solution //
 
 for (var i=1 ; i<=20 ; i++){
-  if (i%3===0 && i%5!=0){
+  if (i%3===0 && i%5!==0){
     console.log("Fizz");
   } 
-  else if (i%5===0 && i%3!=0){
+  else if (i%5===0 && i%3!==0){
     console.log("Buzz");
   } 
   else if (i%3 ===0 && i%5 ===0){
